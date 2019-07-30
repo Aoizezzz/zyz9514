@@ -1,0 +1,686 @@
+E:\Anaconda\python.exe C:/Users/Administrator/PycharmProjects/untitled2/gaigaishishi.py
+LIST OF FILE NAMES:  ['1year.arff', '2year.arff', '3year.arff', '4year.arff', '5year.arff']
+[(array([( 0.20055 , 0.37951,  0.39641, 2.0472 ,   32.351 , 0.38825 ,  0.24976 , 1.3305  , 1.1389 , 0.50494 , 0.24976 ,  0.6598  ,  0.1666  ,  0.24976 ,    497.42,  0.73378 , 2.6349,  0.24976 ,  0.14942 , 43.37  , 1.2479 , 0.21402 ,  0.11998 , 0.47706 , 0.50494 ,  0.60411 ,  1.4582 ,  1.7615 , 5.9443, 0.11788, 0.14942 ,  94.14 , 3.8772, 0.56393 ,  0.21402 , 1.741  , 5.9327e+02, 0.50591,  0.12804 , 0.66295 , 0.051402, 0.12804 , 114.42 ,  71.05 ,  1.0097  , 1.5225 ,  49.394 ,  0.1853  ,  0.11085 , 2.042  , 0.37854, 0.25792,  2.2437 ,  2.248  ,  3.4869e+05,  0.12196 ,  0.39718 , 0.87804, 1.9240e-03,  8.416 , 5.1372,  82.658, 4.4158,  7.4277 , b'0'),
+       ( 0.20912 , 0.49988,  0.47225, 1.9447 ,   14.786 , 0.      ,  0.25834 , 0.99601 , 1.6996 , 0.49788 , 0.26114 ,  0.5168  ,  0.15835 ,  0.25834 ,    677.96,  0.53838 , 2.0005,  0.25834 ,  0.152   , 87.981 , 1.4293 , 0.24806 ,  0.12304 ,      nan, 0.39542 ,  0.43992 , 88.444  , 16.946  , 3.6884, 0.26969, 0.152   , 122.17 , 2.9876, 2.9876  ,  0.20616 , 1.6996 ,        nan, 0.49788,  0.1213  , 0.086422, 0.064371, 0.14595 , 199.49 , 111.51 ,  0.51045 , 1.1252 , 100.13  ,  0.23727 ,  0.13961 , 1.9447 , 0.49988, 0.33472, 17.866  , 17.866  ,  2.3046e+03,  0.1213  ,  0.42002 , 0.853  , 0.0000e+00,  4.1486, 3.2732, 107.35 , 3.4   , 60.987  , b'0'),
+       ( 0.24866 , 0.69592,  0.26713, 1.5548 ,   -1.1523, 0.      ,  0.30906 , 0.43695 , 1.309  , 0.30408 , 0.31258 ,  0.64184 ,  0.24435 ,  0.30906 ,    794.16,  0.45961 , 1.4369,  0.30906 ,  0.2361  , 73.133 , 1.4283 , 0.3026  ,  0.18996 ,      nan, 0.28932 ,  0.37282 , 86.011  ,  1.0627 , 4.3749, 0.41929, 0.23815 , 176.93 , 2.063 , 1.4274  ,  0.31565 , 1.309  , 2.3019e+00, 0.51537,  0.24114 , 0.32202 , 0.07402 , 0.23117 , 165.51 ,  92.381,  0.94807 , 1.0101 ,  96.372 ,  0.29181 ,  0.22293 , 1.0758 , 0.48152, 0.48474,  1.2098 ,  2.0504 ,  6.3327e+03,  0.24114 ,  0.81774 , 0.76599, 6.9484e-01,  4.9909, 3.951 , 134.27 , 2.7185,  5.2078 , b'0'),
+       ...,
+       ( 0.006338, 0.50276,  0.43923, 1.8736 ,    9.7417, 0.006338,  0.012022, 0.98356 , 1.0083 , 0.49449 , 0.012022,  0.023912,  0.014722,  0.012022,   3465.6 ,  0.10532 , 1.989 ,  0.012022,  0.003342, 34.862 ,     nan, 0.014559,  0.001762, 0.012022, 0.49449 ,  0.094015,      nan,  7.5711 , 4.041 , 0.13806, 0.003342,  51.443, 7.0952, 0.028958,  0.014559, 3.6054 ,        nan, 0.49449,  0.004048, 0.012816, 0.29788 , 0.004048,  94.936,  60.074,  0.018448, 1.1903 ,  35.153 , -0.02637 , -0.007331, 1.8736 , 0.50276, 0.14094,  8.5238 ,  8.5238 ,  4.8269e+03,  0.008258,  0.012817, 0.99174, 0.0000e+00, 10.47  , 6.0759,  51.019, 7.1542, 62.001  , b'1'),
+       (-0.041643, 0.8481 , -0.12852, 0.57485, -121.92  , 0.      , -0.036795, 0.17901 , 0.42138, 0.15182 , 0.006414, -0.12172 , -0.030657, -0.036795, -23963.  , -0.015232, 1.1791, -0.036795, -0.087322,  9.1932, 0.64405, 0.006414, -0.098825, 0.045607, 0.12978 , -0.020947,  0.14843, -0.15557, 4.104 , 2.0119 , 0.01522 , 212.42 , 1.7183, 0.61247 , -0.098064, 0.52581, 2.9911e-01, 0.69731, -0.23272 , 0.096108, 0.9333  , 0.01522 , 125.36 , 116.17 , -3.9237  , 0.13122,   7.4576, -0.017463, -0.041444, 0.2049 , 0.3023 , 0.58197,  0.18377,  0.84405, -1.6330e+03, -0.23272 , -0.27429 , 0.98788, 3.5931e+00, 39.703 , 3.142 , 261.85 , 1.3939,  0.51005, b'1'),
+       ( 0.014946, 0.94648,  0.03211, 1.0363 ,  -20.581 , 0.      ,  0.01526 , 0.056357, 2.9694 , 0.053341, 0.076621,  0.017266,  0.01542 ,  0.01526 ,   7545.  ,  0.048376, 1.0565,  0.01526 ,  0.005139, 24.275 ,     nan, 0.049167,  0.005034, 0.01526 , 0.015115,  0.048045,  0.80127,  0.37975, 3.1166, 0.31637, 0.014846, 110.37 , 3.3074, 3.0884  ,  0.046552, 2.9998 , 1.1422e+01, 0.11624,  0.015677, 0.007959, 0.39588 , 0.016558, 111.72 ,  87.443,  0.075684, 0.23141,  24.66  ,  0.018639,  0.006277, 0.96769, 0.88379, 0.30235,  0.63083,  1.3747 ,  4.2000e+01,  0.015705,  0.28021 , 0.97443, 1.1792e+00, 15.036 , 4.1741, 108.64 , 3.3599, 35.118  , b'1')],
+      dtype=[('Attr1', '<f8'), ('Attr2', '<f8'), ('Attr3', '<f8'), ('Attr4', '<f8'), ('Attr5', '<f8'), ('Attr6', '<f8'), ('Attr7', '<f8'), ('Attr8', '<f8'), ('Attr9', '<f8'), ('Attr10', '<f8'), ('Attr11', '<f8'), ('Attr12', '<f8'), ('Attr13', '<f8'), ('Attr14', '<f8'), ('Attr15', '<f8'), ('Attr16', '<f8'), ('Attr17', '<f8'), ('Attr18', '<f8'), ('Attr19', '<f8'), ('Attr20', '<f8'), ('Attr21', '<f8'), ('Attr22', '<f8'), ('Attr23', '<f8'), ('Attr24', '<f8'), ('Attr25', '<f8'), ('Attr26', '<f8'), ('Attr27', '<f8'), ('Attr28', '<f8'), ('Attr29', '<f8'), ('Attr30', '<f8'), ('Attr31', '<f8'), ('Attr32', '<f8'), ('Attr33', '<f8'), ('Attr34', '<f8'), ('Attr35', '<f8'), ('Attr36', '<f8'), ('Attr37', '<f8'), ('Attr38', '<f8'), ('Attr39', '<f8'), ('Attr40', '<f8'), ('Attr41', '<f8'), ('Attr42', '<f8'), ('Attr43', '<f8'), ('Attr44', '<f8'), ('Attr45', '<f8'), ('Attr46', '<f8'), ('Attr47', '<f8'), ('Attr48', '<f8'), ('Attr49', '<f8'), ('Attr50', '<f8'), ('Attr51', '<f8'), ('Attr52', '<f8'), ('Attr53', '<f8'), ('Attr54', '<f8'), ('Attr55', '<f8'), ('Attr56', '<f8'), ('Attr57', '<f8'), ('Attr58', '<f8'), ('Attr59', '<f8'), ('Attr60', '<f8'), ('Attr61', '<f8'), ('Attr62', '<f8'), ('Attr63', '<f8'), ('Attr64', '<f8'), ('class', 'S1')]), Dataset: '1year-weka.filters.unsupervised.instance.SubsetByExpression-Enot
+	Attr1's type is numeric
+	Attr2's type is numeric
+	Attr3's type is numeric
+	Attr4's type is numeric
+	Attr5's type is numeric
+	Attr6's type is numeric
+	Attr7's type is numeric
+	Attr8's type is numeric
+	Attr9's type is numeric
+	Attr10's type is numeric
+	Attr11's type is numeric
+	Attr12's type is numeric
+	Attr13's type is numeric
+	Attr14's type is numeric
+	Attr15's type is numeric
+	Attr16's type is numeric
+	Attr17's type is numeric
+	Attr18's type is numeric
+	Attr19's type is numeric
+	Attr20's type is numeric
+	Attr21's type is numeric
+	Attr22's type is numeric
+	Attr23's type is numeric
+	Attr24's type is numeric
+	Attr25's type is numeric
+	Attr26's type is numeric
+	Attr27's type is numeric
+	Attr28's type is numeric
+	Attr29's type is numeric
+	Attr30's type is numeric
+	Attr31's type is numeric
+	Attr32's type is numeric
+	Attr33's type is numeric
+	Attr34's type is numeric
+	Attr35's type is numeric
+	Attr36's type is numeric
+	Attr37's type is numeric
+	Attr38's type is numeric
+	Attr39's type is numeric
+	Attr40's type is numeric
+	Attr41's type is numeric
+	Attr42's type is numeric
+	Attr43's type is numeric
+	Attr44's type is numeric
+	Attr45's type is numeric
+	Attr46's type is numeric
+	Attr47's type is numeric
+	Attr48's type is numeric
+	Attr49's type is numeric
+	Attr50's type is numeric
+	Attr51's type is numeric
+	Attr52's type is numeric
+	Attr53's type is numeric
+	Attr54's type is numeric
+	Attr55's type is numeric
+	Attr56's type is numeric
+	Attr57's type is numeric
+	Attr58's type is numeric
+	Attr59's type is numeric
+	Attr60's type is numeric
+	Attr61's type is numeric
+	Attr62's type is numeric
+	Attr63's type is numeric
+	Attr64's type is numeric
+	class's type is nominal, range is ('0', '1')
+), (array([( 0.20235  , 0.465  ,  0.24038, 1.5171 ,  -14.547  ,  5.1069e-01, 0.25366  , 0.91816 , 1.1519 , 0.42695 , 0.25366  , 0.54561  , 0.17865 , 0.25366  ,   603.2 , 0.60511 , 2.1505, 0.25366  , 0.16105   ,  42.697, 1.0806 ,  0.22349 ,  0.12848   , 0.63105  , 0.42695 , 0.49478 ,  1.6345 ,  0.81559, 6.0038, 0.22803, 0.16105   , 124.1  , 2.9412 ,  0.48063 ,  0.22349 , 1.6258 , 5095.3  , 0.42705,  0.1419   , 0.46489  , 0.060856,  0.1419   , 113.36 ,  70.661,  1.0983   , 1.1207 ,  49.181,  0.19577 ,  0.1243  , 1.5167 , 0.4649 , 0.34   ,  1.4486 ,  1.449  ,  2.4250e+05,  0.13184  ,  0.47395  , 0.86816, 0.00023951,  8.5487,  5.1655 , 107.74 , 3.3879 ,  5.344 , b'0'),
+       ( 0.030073 , 0.59563,  0.18668, 1.3382 ,  -37.859  , -3.1864e-04, 0.04167  , 0.6789  , 0.32356, 0.40437 , 0.042199 , 0.075493 , 0.14563 , 0.04167  ,  4613.9 , 0.079109, 1.6789, 0.04167  , 0.12878   , 239.12 ,     nan,  0.042196,  0.092943  ,       nan, 0.029802, 0.059639, 79.752  ,  0.71432, 4.0672, 1.8052 , 0.12878   , 708.74 , 0.51499,  0.47725 ,  0.039298, 0.32356,      nan, 0.40437,  0.12146  , 0.028211 , 0.41671 ,  0.13041  , 815.69 , 576.57 ,  0.14187  , 0.95419, 272.17 ,  0.036746,  0.11357 , 1.2401 , 0.55197, 1.9418 ,  1.5473 ,  1.5473 ,  2.1795e+03,  0.12146  ,  0.074369 , 0.87235, 0.        ,  1.5264,  0.63305, 622.66 , 0.58619,  1.2381, b'0'),
+       ( 0.25786  , 0.29949,  0.66519, 3.2211 ,   71.799  ,  0.0000e+00, 0.31877  , 2.332   , 1.6762 , 0.69841 , 0.32453  , 1.0644   , 0.19745 , 0.31877  ,   330.29, 1.1051  , 3.339 , 0.31877  , 0.19017   ,  84.246, 1.1146 ,  0.30466 ,  0.15383   ,       nan, 0.60775 , 0.90169 , 52.886  , 18.836  , 3.7415, 0.14756, 0.19021   ,  78.101, 4.6734 ,  4.6734  ,  0.27656 , 1.6762 ,      nan, 0.69841,  0.16499  , 0.17942  , 0.031507,  0.18175  , 198.36 , 114.11 ,  0.66649  , 1.9292 , 100.89 ,  0.29247 ,  0.17448 , 3.2211 , 0.29949, 0.21398, 19.777  , 19.777  ,  3.6686e+03,  0.16499  ,  0.36921  , 0.81614, 0.        ,  4.3325,  3.1985 ,  65.215, 5.5969 , 47.466 , b'0'),
+       ...,
+       ( 0.015092 , 0.55759, -0.2846 , 0.48599,  -85.571  ,  1.5092e-02, 0.0098258, 0.69488 , 1.006  , 0.38746 , 0.0098258, 0.017746 , 0.04257 , 0.0098258,  2702.7 , 0.13505 , 1.7934, 0.0098258, 0.0055547 ,  24.248, 1.265  ,  0.018633,  0.0085317 , 0.0098258, 0.38746 , 0.14449 ,      nan, -0.38937, 4.9993, 0.31327, 0.0055547 , 114.93 , 3.1757 ,  0.033417,  0.018633, 1.7872 ,   38.766, 0.39137,  0.010534 , 0.0067107, 0.21795 ,  0.010534 ,  54.757,  30.508,  0.12842  , 0.27375,  24.394, -0.046844, -0.026482, 0.48258, 0.55368, 0.31489,  0.53011,  0.53546, -2.8417e+04,  0.0059714,  0.03895  , 0.99403, 0.010091  , 15.053 , 11.964  , 114.25 , 3.1948 ,  2.4201, b'1'),
+       (-0.0025542, 0.47076,  0.42401, 1.9007 ,    0.95483, -2.5542e-03, 0.0017845, 1.1144  , 0.99293, 0.52464 , 0.0017845, 0.0037906, 0.017902, 0.0017845,  3591.3 , 0.10163 , 2.1242, 0.0017845, 0.00066768,  56.775, 0.64299, -0.020174, -0.00095568, 0.0017845, 0.52464 , 0.092417,      nan,  4.0295 , 3.9782, 0.17274, 0.00066768,  63.837, 5.7177 , -0.042854, -0.020174, 2.7197 ,      nan, 0.52464, -0.0075483, 0.022033 , 0.59787 , -0.0075483, 120.78 ,  64.007, -0.006144 , 1.0176 ,  56.374, -0.066234, -0.024782, 1.9007 , 0.47076, 0.1749 ,  4.9857 ,  4.9857 ,  4.0323e+03, -0.0071218, -0.0048685, 1.0071 , 0.        ,  6.4289,  5.7025 ,  64.291, 5.6773 , 25.399 , b'1'),
+       ( 0.0020717, 0.94315, -0.13474, 0.85607, -119.92   ,  1.5226e-02, 0.0020717, 0.059818, 1.7749 , 0.056417, 0.067687 , 0.002213 , 0.011988, 0.0020717, 16179.  , 0.02256 , 1.0603, 0.0020717, 0.0011672 ,  87.703, 0.58677,  0.055467,  0.0011672 , 0.017617 , 0.017477, 0.02256 ,  0.84534, -0.67987, 3.1086, 0.52435, 0.02907   , 198.7  , 1.838  ,  1.8244  ,  0.055389, 1.7882 ,   50.042, 0.06391,  0.031207 , 0.019268 , 0.42101 ,  0.031251 , 161.09 ,  73.391,  0.0048576, 0.47484,  90.469,  0.036262,  0.02043 , 0.84971, 0.93614, 0.54406,  0.28468,  0.32249, -1.7300e+02,  0.031154 ,  0.03672  , 0.9622 , 0.1328    ,  4.1618,  4.9734 , 192.51 , 1.896  ,  8.9562, b'1')],
+      dtype=[('Attr1', '<f8'), ('Attr2', '<f8'), ('Attr3', '<f8'), ('Attr4', '<f8'), ('Attr5', '<f8'), ('Attr6', '<f8'), ('Attr7', '<f8'), ('Attr8', '<f8'), ('Attr9', '<f8'), ('Attr10', '<f8'), ('Attr11', '<f8'), ('Attr12', '<f8'), ('Attr13', '<f8'), ('Attr14', '<f8'), ('Attr15', '<f8'), ('Attr16', '<f8'), ('Attr17', '<f8'), ('Attr18', '<f8'), ('Attr19', '<f8'), ('Attr20', '<f8'), ('Attr21', '<f8'), ('Attr22', '<f8'), ('Attr23', '<f8'), ('Attr24', '<f8'), ('Attr25', '<f8'), ('Attr26', '<f8'), ('Attr27', '<f8'), ('Attr28', '<f8'), ('Attr29', '<f8'), ('Attr30', '<f8'), ('Attr31', '<f8'), ('Attr32', '<f8'), ('Attr33', '<f8'), ('Attr34', '<f8'), ('Attr35', '<f8'), ('Attr36', '<f8'), ('Attr37', '<f8'), ('Attr38', '<f8'), ('Attr39', '<f8'), ('Attr40', '<f8'), ('Attr41', '<f8'), ('Attr42', '<f8'), ('Attr43', '<f8'), ('Attr44', '<f8'), ('Attr45', '<f8'), ('Attr46', '<f8'), ('Attr47', '<f8'), ('Attr48', '<f8'), ('Attr49', '<f8'), ('Attr50', '<f8'), ('Attr51', '<f8'), ('Attr52', '<f8'), ('Attr53', '<f8'), ('Attr54', '<f8'), ('Attr55', '<f8'), ('Attr56', '<f8'), ('Attr57', '<f8'), ('Attr58', '<f8'), ('Attr59', '<f8'), ('Attr60', '<f8'), ('Attr61', '<f8'), ('Attr62', '<f8'), ('Attr63', '<f8'), ('Attr64', '<f8'), ('class', 'S1')]), Dataset: '1year-weka.filters.unsupervised.instance.SubsetByExpression-Enot
+	Attr1's type is numeric
+	Attr2's type is numeric
+	Attr3's type is numeric
+	Attr4's type is numeric
+	Attr5's type is numeric
+	Attr6's type is numeric
+	Attr7's type is numeric
+	Attr8's type is numeric
+	Attr9's type is numeric
+	Attr10's type is numeric
+	Attr11's type is numeric
+	Attr12's type is numeric
+	Attr13's type is numeric
+	Attr14's type is numeric
+	Attr15's type is numeric
+	Attr16's type is numeric
+	Attr17's type is numeric
+	Attr18's type is numeric
+	Attr19's type is numeric
+	Attr20's type is numeric
+	Attr21's type is numeric
+	Attr22's type is numeric
+	Attr23's type is numeric
+	Attr24's type is numeric
+	Attr25's type is numeric
+	Attr26's type is numeric
+	Attr27's type is numeric
+	Attr28's type is numeric
+	Attr29's type is numeric
+	Attr30's type is numeric
+	Attr31's type is numeric
+	Attr32's type is numeric
+	Attr33's type is numeric
+	Attr34's type is numeric
+	Attr35's type is numeric
+	Attr36's type is numeric
+	Attr37's type is numeric
+	Attr38's type is numeric
+	Attr39's type is numeric
+	Attr40's type is numeric
+	Attr41's type is numeric
+	Attr42's type is numeric
+	Attr43's type is numeric
+	Attr44's type is numeric
+	Attr45's type is numeric
+	Attr46's type is numeric
+	Attr47's type is numeric
+	Attr48's type is numeric
+	Attr49's type is numeric
+	Attr50's type is numeric
+	Attr51's type is numeric
+	Attr52's type is numeric
+	Attr53's type is numeric
+	Attr54's type is numeric
+	Attr55's type is numeric
+	Attr56's type is numeric
+	Attr57's type is numeric
+	Attr58's type is numeric
+	Attr59's type is numeric
+	Attr60's type is numeric
+	Attr61's type is numeric
+	Attr62's type is numeric
+	Attr63's type is numeric
+	Attr64's type is numeric
+	class's type is nominal, range is ('0', '1')
+)]
+Shape of our DataFrame:  (43405, 65)
+      Attr1    Attr2    Attr3   Attr4  ...   Attr62  Attr63   Attr64  class
+0  0.200550  0.37951  0.39641  2.0472  ...   82.658  4.4158   7.4277   b'0'
+1  0.209120  0.49988  0.47225  1.9447  ...  107.350  3.4000  60.9870   b'0'
+2  0.248660  0.69592  0.26713  1.5548  ...  134.270  2.7185   5.2078   b'0'
+3  0.081483  0.30734  0.45879  2.4928  ...   86.435  4.2228   5.5497   b'0'
+4  0.187320  0.61323  0.22960  1.4063  ...  127.210  2.8692   7.8980   b'0'
+
+[5 rows x 65 columns]
+      attr1    attr2    attr3   attr4  ...   attr62  attr63   attr64  class
+0  0.200550  0.37951  0.39641  2.0472  ...   82.658  4.4158   7.4277      0
+1  0.209120  0.49988  0.47225  1.9447  ...  107.350  3.4000  60.9870      0
+2  0.248660  0.69592  0.26713  1.5548  ...  134.270  2.7185   5.2078      0
+3  0.081483  0.30734  0.45879  2.4928  ...   86.435  4.2228   5.5497      0
+4  0.187320  0.61323  0.22960  1.4063  ...  127.210  2.8692   7.8980      0
+
+[5 rows x 65 columns]
+None
+              attr1         attr2  ...         attr64         class
+count  43397.000000  43397.000000  ...   42593.000000  43405.000000
+mean       0.035160      0.590212  ...      72.788592      0.048174
+std        2.994109      5.842748  ...    2369.339482      0.214137
+min     -463.890000   -430.870000  ...  -10677.000000      0.000000
+25%        0.003429      0.268980  ...       2.176800      0.000000
+50%        0.049660      0.471900  ...       4.282500      0.000000
+75%        0.129580      0.688320  ...       9.776200      0.000000
+max       94.280000    480.960000  ...  294770.000000      1.000000
+
+[8 rows x 65 columns]
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.5min finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[LibLinear]iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 3
+iter   4  #CD cycles 1
+iter   5  #CD cycles 3
+iter   6  #CD cycles 128
+iter   7  #CD cycles 5
+iter   8  #CD cycles 1
+iter   9  #CD cycles 10
+WARNING: reaching max number of inner iterations
+iter  10  #CD cycles 1000
+iter  11  #CD cycles 3
+iter  12  #CD cycles 1
+iter  13  #CD cycles 83
+iter  14  #CD cycles 61
+iter  15  #CD cycles 5
+iter  16  #CD cycles 25
+iter  17  #CD cycles 8
+iter  18  #CD cycles 4
+iter  19  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  20  #CD cycles 1000
+iter  21  #CD cycles 880
+iter  22  #CD cycles 440
+iter  23  #CD cycles 7
+iter  24  #CD cycles 13
+iter  25  #CD cycles 4
+iter  26  #CD cycles 14
+iter  27  #CD cycles 2
+iter  28  #CD cycles 28
+iter  29  #CD cycles 1
+iter  30  #CD cycles 869
+iter  31  #CD cycles 51
+iter  32  #CD cycles 34
+iter  33  #CD cycles 2
+iter  34  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  35  #CD cycles 1000
+iter  36  #CD cycles 755
+iter  37  #CD cycles 42
+iter  38  #CD cycles 77
+iter  39  #CD cycles 95
+iter  40  #CD cycles 48
+iter  41  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  42  #CD cycles 1000
+WARNING: reaching max number of inner iterations
+iter  43  #CD cycles 1000
+iter  44  #CD cycles 77
+iter  45  #CD cycles 101
+iter  46  #CD cycles 210
+iter  47  #CD cycles 1
+=========================
+optimization finished, #iter = 47
+Objective value = 5177.450695
+#nonzeros/#features = 44/65
+[LibLinear]iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 2
+iter   4  #CD cycles 1
+iter   5  #CD cycles 4
+iter   6  #CD cycles 152
+iter   7  #CD cycles 31
+iter   8  #CD cycles 5
+iter   9  #CD cycles 3
+iter  10  #CD cycles 1
+iter  11  #CD cycles 5
+iter  12  #CD cycles 6
+iter  13  #CD cycles 5
+iter  14  #CD cycles 1
+iter  15  #CD cycles 62
+iter  16  #CD cycles 48
+iter  17  #CD cycles 57
+iter  18  #CD cycles 2
+iter  19  #CD cycles 8
+iter  20  #CD cycles 2
+iter  21  #CD cycles 2
+iter  22  #CD cycles 1
+iter  23  #CD cycles 790
+iter  24  #CD cycles 195
+iter  25  #CD cycles 135
+iter  26  #CD cycles 36
+iter  27  #CD cycles 4
+iter  28  #CD cycles 2
+iter  29  #CD cycles 18
+iter  30  #CD cycles 11
+iter  31  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  32  #CD cycles 1000
+iter  33  #CD cycles 775
+iter  34  #CD cycles 317
+iter  35  #CD cycles 61
+iter  36  #CD cycles 56
+iter  37  #CD cycles 64
+iter  38  #CD cycles 9
+iter  39  #CD cycles 3
+iter  40  #CD cycles 16
+iter  41  #CD cycles 8
+iter  42  #CD cycles 17
+iter  43  #CD cycles 10
+iter  44  #CD cycles 2
+iter  45  #CD cycles 8
+iter  46  #CD cycles 18
+iter  47  #CD cycles 6
+iter  48  #CD cycles 5
+iter  49  #CD cycles 5
+iter  50  #CD cycles 16
+iter  51  #CD cycles 13
+iter  52  #CD cycles 20
+iter  53  #CD cycles 3
+iter  54  #CD cycles 3
+iter  55  #CD cycles 19
+iter  56  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  57  #CD cycles 1000
+WARNING: reaching max number of inner iterations
+iter  58  #CD cycles 1000
+iter  59  #CD cycles 551
+iter  60  #CD cycles 22
+iter  61  #CD cycles 85
+iter  62  #CD cycles 62
+iter  63  #CD cycles 15
+iter  64  #CD cycles 36
+iter  65  #CD cycles 11
+iter  66  #CD cycles 10
+iter  67  #CD cycles 15
+iter  68  #CD cycles 10
+iter  69  #CD cycles 34
+iter  70  #CD cycles 12
+iter  71  #CD cycles 7
+iter  72  #CD cycles 16
+iter  73  #CD cycles 16
+iter  74  #CD cycles 17
+iter  75  #CD cycles 10
+iter  76  #CD cycles 5
+iter  77  #CD cycles 23
+iter  78  #CD cycles 30
+iter  79  #CD cycles 26
+iter  80  #CD cycles 8
+iter  81  #CD cycles 19
+iter  82  #CD cycles 2
+iter  83  #CD cycles 4
+iter  84  #CD cycles 5
+iter  85  #CD cycles 6
+iter  86  #CD cycles 4
+iter  87  #CD cycles 2
+iter  88  #CD cycles 4
+iter  89  #CD cycles 20
+iter  90  #CD cycles 2
+iter  91  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  92  #CD cycles 1000
+WARNING: reaching max number of inner iterations
+iter  93  #CD cycles 1000
+=========================
+optimization finished, #iter = 93
+Objective value = 5165.630490
+#nonzeros/#features = 45/65
+[LibLinear]iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 3
+iter   4  #CD cycles 3
+iter   5  #CD cycles 1
+iter   6  #CD cycles 27
+iter   7  #CD cycles 1
+iter   8  #CD cycles 6
+iter   9  #CD cycles 93
+iter  10  #CD cycles 8
+iter  11  #CD cycles 34
+iter  12  #CD cycles 7
+iter  13  #CD cycles 4
+iter  14  #CD cycles 4
+iter  15  #CD cycles 1
+iter  16  #CD cycles 45
+iter  17  #CD cycles 45
+iter  18  #CD cycles 10
+iter  19  #CD cycles 12
+iter  20  #CD cycles 1
+iter  21  #CD cycles 220
+iter  22  #CD cycles 176
+iter  23  #CD cycles 10
+iter  24  #CD cycles 3
+iter  25  #CD cycles 5
+iter  26  #CD cycles 1
+iter  27  #CD cycles 908
+iter  28  #CD cycles 119
+iter  29  #CD cycles 21
+iter  30  #CD cycles 3
+iter  31  #CD cycles 4
+iter  32  #CD cycles 4
+iter  33  #CD cycles 8
+iter  34  #CD cycles 3
+iter  35  #CD cycles 10
+iter  36  #CD cycles 13
+iter  37  #CD cycles 10
+iter  38  #CD cycles 2
+iter  39  #CD cycles 29
+iter  40  #CD cycles 3
+iter  41  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  42  #CD cycles 1000
+WARNING: reaching max number of inner iterations
+iter  43  #CD cycles 1000
+iter  44  #CD cycles 199
+iter  45  #CD cycles 4
+iter  46  #CD cycles 13
+iter  47  #CD cycles 36
+iter  48  #CD cycles 7
+iter  49  #CD cycles 33
+iter  50  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  51  #CD cycles 1000
+WARNING: reaching max number of inner iterations
+iter  52  #CD cycles 1000
+iter  53  #CD cycles 504
+iter  54  #CD cycles 174
+iter  55  #CD cycles 80
+=========================
+optimization finished, #iter = 55
+Objective value = 5159.778122
+#nonzeros/#features = 43/65
+[LibLinear]iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 2
+iter   4  #CD cycles 3
+iter   5  #CD cycles 1
+iter   6  #CD cycles 211
+iter   7  #CD cycles 4
+iter   8  #CD cycles 3
+iter   9  #CD cycles 6
+iter  10  #CD cycles 5
+iter  11  #CD cycles 4
+iter  12  #CD cycles 3
+iter  13  #CD cycles 3
+iter  14  #CD cycles 3
+iter  15  #CD cycles 1
+iter  16  #CD cycles 11
+iter  17  #CD cycles 1
+iter  18  #CD cycles 56
+iter  19  #CD cycles 31
+iter  20  #CD cycles 21
+iter  21  #CD cycles 23
+iter  22  #CD cycles 9
+iter  23  #CD cycles 1
+iter  24  #CD cycles 480
+iter  25  #CD cycles 240
+iter  26  #CD cycles 6
+iter  27  #CD cycles 11
+iter  28  #CD cycles 3
+iter  29  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  30  #CD cycles 1000
+iter  31  #CD cycles 666
+iter  32  #CD cycles 3
+iter  33  #CD cycles 3
+iter  34  #CD cycles 29
+iter  35  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  36  #CD cycles 1000
+WARNING: reaching max number of inner iterations
+iter  37  #CD cycles 1000
+iter  38  #CD cycles 308
+iter  39  #CD cycles 45
+iter  40  #CD cycles 58
+iter  41  #CD cycles 52
+iter  42  #CD cycles 18
+iter  43  #CD cycles 8
+iter  44  #CD cycles 33
+iter  45  #CD cycles 11
+iter  46  #CD cycles 6
+iter  47  #CD cycles 7
+iter  48  #CD cycles 24
+iter  49  #CD cycles 15
+iter  50  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  51  #CD cycles 1000
+WARNING: reaching max number of inner iterations
+iter  52  #CD cycles 1000
+iter  53  #CD cycles 311
+iter  54  #CD cycles 32
+iter  55  #CD cycles 198
+=========================
+optimization finished, #iter = 55
+Objective value = 5129.043640
+#nonzeros/#features = 50/65
+[LibLinear]iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 3
+iter   4  #CD cycles 1
+iter   5  #CD cycles 4
+iter   6  #CD cycles 3
+iter   7  #CD cycles 1
+iter   8  #CD cycles 37
+iter   9  #CD cycles 11
+iter  10  #CD cycles 12
+iter  11  #CD cycles 1
+iter  12  #CD cycles 53
+iter  13  #CD cycles 42
+iter  14  #CD cycles 19
+iter  15  #CD cycles 2
+iter  16  #CD cycles 1
+iter  17  #CD cycles 170
+iter  18  #CD cycles 103
+iter  19  #CD cycles 52
+iter  20  #CD cycles 49
+iter  21  #CD cycles 10
+iter  22  #CD cycles 28
+iter  23  #CD cycles 4
+iter  24  #CD cycles 14
+iter  25  #CD cycles 5
+iter  26  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  27  #CD cycles 1000
+iter  28  #CD cycles 190
+iter  29  #CD cycles 2
+iter  30  #CD cycles 28
+iter  31  #CD cycles 18
+iter  32  #CD cycles 217
+iter  33  #CD cycles 6
+iter  34  #CD cycles 5
+iter  35  #CD cycles 8
+iter  36  #CD cycles 58
+iter  37  #CD cycles 8
+iter  38  #CD cycles 13
+iter  39  #CD cycles 13
+iter  40  #CD cycles 3
+iter  41  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  42  #CD cycles 1000
+iter  43  #CD cycles 907
+iter  44  #CD cycles 69
+iter  45  #CD cycles 15
+iter  46  #CD cycles 32
+iter  47  #CD cycles 30
+iter  48  #CD cycles 418
+iter  49  #CD cycles 52
+iter  50  #CD cycles 8
+iter  51  #CD cycles 19
+iter  52  #CD cycles 19
+iter  53  #CD cycles 22
+iter  54  #CD cycles 2
+iter  55  #CD cycles 8
+iter  56  #CD cycles 1
+WARNING: reaching max number of inner iterations
+iter  57  #CD cycles 1000
+WARNING: reaching max number of inner iterations
+iter  58  #CD cycles 1000
+=========================
+optimization finished, #iter = 58
+Objective value = 5173.808495
+#nonzeros/#features = 46/65
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  2.3min finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  3.9min finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  2.9min finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:   12.3s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:   52.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+E:\Anaconda\lib\site-packages\sklearn\neural_network\multilayer_perceptron.py:562: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+E:\Anaconda\lib\site-packages\sklearn\neural_network\multilayer_perceptron.py:562: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+E:\Anaconda\lib\site-packages\sklearn\neural_network\multilayer_perceptron.py:562: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+E:\Anaconda\lib\site-packages\sklearn\neural_network\multilayer_perceptron.py:562: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+E:\Anaconda\lib\site-packages\sklearn\neural_network\multilayer_perceptron.py:562: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.4min finished
+{'KNeighborsClassifier': [0.6671020983743199, 0.001380669763567787], 'LogisticRegression': [0.7039922727371504, 0.013736522319835305], 'AdaBoostClassifier': [0.8961657227684, 0.008724408937529834], 'GradientBoostingClassifier': [0.939563423337475, 0.007787443428609555], 'RandomForestClassifier': [0.868063644963741, 0.014499228388846529], 'BaggingClassifier': [0.838980691786983, 0.011653148691038367], 'MLPClassifier': [0.8952536411103698, 0.008325246853966892]}
+                  roc_auc precision    recall
+GradienBoosting  0.935378  0.897959  0.421053
+Adaboost         0.904306  0.564417  0.220096
+RandomForest     0.853023  0.861635  0.327751
+PREDICTION  operating  bankrupt  Total
+TRUE                                  
+operating        8243        20   8263
+bankrupt          242       176    418
+Total            8485       196   8681
+PREDICTION  operating  bankrupt  Total
+TRUE                                  
+operating        8192        71   8263
+bankrupt          326        92    418
+Total            8518       163   8681
+PREDICTION  operating  bankrupt  Total
+TRUE                                  
+operating        8241        22   8263
+bankrupt          281       137    418
+Total            8522       159   8681
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+[CV] loss=exponential, max_depth=9, n_estimators=231 .................
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:  2.4min remaining:    0.0s
+[CV] .. loss=exponential, max_depth=9, n_estimators=231, total= 2.3min
+[CV] loss=exponential, max_depth=9, n_estimators=231 .................
+[CV] .. loss=exponential, max_depth=9, n_estimators=231, total= 2.3min
+[CV] loss=exponential, max_depth=9, n_estimators=231 .................
+[CV] .. loss=exponential, max_depth=9, n_estimators=231, total= 2.3min
+[CV] loss=deviance, max_depth=9, n_estimators=465 ....................
+[CV] ..... loss=deviance, max_depth=9, n_estimators=465, total= 3.8min
+[CV] loss=deviance, max_depth=9, n_estimators=465 ....................
+[CV] ..... loss=deviance, max_depth=9, n_estimators=465, total= 3.9min
+[CV] loss=deviance, max_depth=9, n_estimators=465 ....................
+[CV] ..... loss=deviance, max_depth=9, n_estimators=465, total= 3.8min
+[CV] loss=exponential, max_depth=7, n_estimators=305 .................
+[CV] .. loss=exponential, max_depth=7, n_estimators=305, total= 2.0min
+[CV] loss=exponential, max_depth=7, n_estimators=305 .................
+[CV] .. loss=exponential, max_depth=7, n_estimators=305, total= 1.9min
+[CV] loss=exponential, max_depth=7, n_estimators=305 .................
+[CV] .. loss=exponential, max_depth=7, n_estimators=305, total= 2.0min
+[CV] loss=exponential, max_depth=7, n_estimators=477 .................
+[CV] .. loss=exponential, max_depth=7, n_estimators=477, total= 3.0min
+[CV] loss=exponential, max_depth=7, n_estimators=477 .................
+[CV] .. loss=exponential, max_depth=7, n_estimators=477, total= 3.0min
+[CV] loss=exponential, max_depth=7, n_estimators=477 .................
+[CV] .. loss=exponential, max_depth=7, n_estimators=477, total= 3.0min
+[CV] loss=deviance, max_depth=9, n_estimators=322 ....................
+[CV] ..... loss=deviance, max_depth=9, n_estimators=322, total= 3.0min
+[CV] loss=deviance, max_depth=9, n_estimators=322 ....................
+[CV] ..... loss=deviance, max_depth=9, n_estimators=322, total= 2.9min
+[CV] loss=deviance, max_depth=9, n_estimators=322 ....................
+[CV] ..... loss=deviance, max_depth=9, n_estimators=322, total= 3.0min
+[CV] loss=deviance, max_depth=5, n_estimators=364 ....................
+[CV] ..... loss=deviance, max_depth=5, n_estimators=364, total= 1.4min
+[CV] loss=deviance, max_depth=5, n_estimators=364 ....................
+[CV] ..... loss=deviance, max_depth=5, n_estimators=364, total= 1.4min
+[CV] loss=deviance, max_depth=5, n_estimators=364 ....................
+[CV] ..... loss=deviance, max_depth=5, n_estimators=364, total= 1.4min
+[CV] loss=exponential, max_depth=1, n_estimators=31 ..................
+[CV] ... loss=exponential, max_depth=1, n_estimators=31, total=   1.4s
+[CV] loss=exponential, max_depth=1, n_estimators=31 ..................
+[CV] ... loss=exponential, max_depth=1, n_estimators=31, total=   1.4s
+[CV] loss=exponential, max_depth=1, n_estimators=31 ..................
+[CV] ... loss=exponential, max_depth=1, n_estimators=31, total=   1.4s
+[CV] loss=deviance, max_depth=2, n_estimators=476 ....................
+[CV] ..... loss=deviance, max_depth=2, n_estimators=476, total=  39.5s
+[CV] loss=deviance, max_depth=2, n_estimators=476 ....................
+[CV] ..... loss=deviance, max_depth=2, n_estimators=476, total=  39.4s
+[CV] loss=deviance, max_depth=2, n_estimators=476 ....................
+[CV] ..... loss=deviance, max_depth=2, n_estimators=476, total=  39.6s
+[CV] loss=exponential, max_depth=9, n_estimators=271 .................
+[CV] .. loss=exponential, max_depth=9, n_estimators=271, total= 2.6min
+[CV] loss=exponential, max_depth=9, n_estimators=271 .................
+[CV] .. loss=exponential, max_depth=9, n_estimators=271, total= 2.7min
+[CV] loss=exponential, max_depth=9, n_estimators=271 .................
+[CV] .. loss=exponential, max_depth=9, n_estimators=271, total= 2.7min
+[CV] loss=exponential, max_depth=8, n_estimators=310 .................
+[CV] .. loss=exponential, max_depth=8, n_estimators=310, total= 2.4min
+[CV] loss=exponential, max_depth=8, n_estimators=310 .................
+[CV] .. loss=exponential, max_depth=8, n_estimators=310, total= 2.4min
+[CV] loss=exponential, max_depth=8, n_estimators=310 .................
+[CV] .. loss=exponential, max_depth=8, n_estimators=310, total= 2.5min
+[Parallel(n_jobs=1)]: Done  30 out of  30 | elapsed: 64.0min finished
+{'loss': 'exponential', 'max_depth': 7, 'n_estimators': 477} 0.9578527218330148
+PREDICTION  operating  bankrupt  Total
+TRUE                                  
+operating        8241        22   8263
+bankrupt          281       137    418
+Total            8522       159   8681
+                             roc_auc precision    recall
+GradienBoosting             0.935378  0.897959  0.421053
+Adaboost                    0.904306  0.564417  0.220096
+RandomForest                0.853023  0.861635  0.327751
+GradienBoosting_Hypertuned  0.965121  0.861635  0.327751
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98      8263
+           1       0.86      0.33      0.47       418
+
+   micro avg       0.97      0.97      0.97      8681
+   macro avg       0.91      0.66      0.73      8681
+weighted avg       0.96      0.97      0.96      8681
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99      8263
+           1       0.86      0.69      0.77       418
+
+   micro avg       0.98      0.98      0.98      8681
+   macro avg       0.92      0.84      0.88      8681
+weighted avg       0.98      0.98      0.98      8681
+
+0.8427892658053108
+{'learning_rate': array([0.05, 0.1 , 0.15, 0.2 , 0.25, 0.3 , 0.35, 0.4 , 0.45, 0.5 , 0.55,
+       0.6 , 0.65, 0.7 , 0.75, 0.8 , 0.85, 0.9 , 0.95, 1.  ]), 'n_estimators': array([ 200,  400,  600,  800, 1000, 1200, 1400]), 'min_child_weight': [1, 5, 10], 'gamma': [0.5, 1, 1.5, 2, 5], 'subsample': [0.6, 0.8, 1.0], 'colsample_bytree': [0.6, 0.8, 1.0], 'max_depth': [3, 4, 5]}
+Fitting 4 folds for each of 25 candidates, totalling 100 fits
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done 100 out of 100 | elapsed: 41.7min finished
+{'subsample': 0.8, 'n_estimators': 400, 'min_child_weight': 10, 'max_depth': 3, 'learning_rate': 0.05, 'gamma': 1, 'colsample_bytree': 0.8}
+              precision    recall  f1-score   support
+
+           0       1.00      0.86      0.92      8263
+           1       0.25      0.92      0.39       418
+
+   micro avg       0.86      0.86      0.86      8681
+   macro avg       0.62      0.89      0.66      8681
+weighted avg       0.96      0.86      0.90      8681
+
+0.8915300639792191
+Traceback (most recent call last):
+['attr26', 'attr16', 'attr34', 'attr27', 'attr6', 'attr24', 'attr22', 'attr35', 'attr46', 'attr21', 'attr25']
+ 
